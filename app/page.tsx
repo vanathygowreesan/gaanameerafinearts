@@ -5,9 +5,7 @@ export default function HomePage() {
   return (
     <main className="relative min-h-screen">
       <AnimatedBackground />
-      <div className="pt-16">
-        <HeroSection />
-      </div>
+      <HeroSection />
     </main>
   )
 }

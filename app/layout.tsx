@@ -18,8 +18,8 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Giana Meera School of Fine Arts - Coming Soon",
-  description: "Where classical dance meets artistic excellence. Stay tuned for something extraordinary.",
+  title: "The Gaana Meera Academy Hub",
+  description: "Master the art of Carnatic music with Guru Vanathy Gowreesan.",
   generator: "v0.app",
 }
 
