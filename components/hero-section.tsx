@@ -22,7 +22,7 @@ export default function HeroSection() {
           {/* Coming Soon Text */}
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-lg text-balance">
-              Coming Soon testing
+              Coming Soon
             </h1>
             <p className="text-xl md:text-2xl text-white/90 drop-shadow-md font-light text-balance">
               Stay tuned for something extraordinary
