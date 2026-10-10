@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import { Spectral, Figtree } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 
 const heading = Spectral({ subsets: ['latin'], weight: ['400', '600'], style: ['normal', 'italic'], variable: '--font-heading', display: 'swap' })
@@ -58,7 +59,16 @@ export const viewport: Viewport = { width: 'device-width', initialScale: 1, view
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${heading.variable} ${body.variable}`} suppressHydrationWarning>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-Y1H0GXLNXP" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){window.dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-Y1H0GXLNXP');`}
+        </Script>
+      </body>
     </html>
   )
 }
