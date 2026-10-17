@@ -6,6 +6,7 @@ const LINKS = [
   ['About', '#about'],
   ['Programs', '#programs'],
   ['Gallery', '#gallery'],
+  ['Media', '#media'],
   ['FAQ', '#faq'],
   ['Contact', '#contact'],
   ['Academy Hub', '#hub'],
