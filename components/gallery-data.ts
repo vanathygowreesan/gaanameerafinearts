@@ -17,6 +17,38 @@ export const GALLERY: Record<Category, { name: string; years: Record<string, Pho
   "festival": {
     "name": "Festival Performances",
     "years": {
+      "2026": [
+        {
+          "caption": "Navarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga, 2026",
+          "src": "/images/gallery/festival-2026-1.JPG",
+          "event": "Navarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga"
+        },
+        {
+          "caption": "Navarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga, 2026",
+          "src": "/images/gallery/festival-2026-2.JPG",
+          "event": "Navarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga"
+        },
+        {
+          "caption": "Shivarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga, 2026",
+          "src": "/images/gallery/festival-2026-3.JPG",
+          "event": "Shivarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga"
+        },
+        {
+          "caption": "Shivarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga, 2026",
+          "src": "/images/gallery/festival-2026-4.JPG",
+          "event": "Shivarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga"
+        },
+        {
+          "caption": "Shivarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga, 2026",
+          "src": "/images/gallery/festival-2026-5.JPG",
+          "event": "Shivarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga"
+        },
+        {
+          "caption": "Shivarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga, 2026",
+          "src": "/images/gallery/festival-2026-6.JPG",
+          "event": "Shivarathiri performance at Sri Raja Rajeswari Temple of Canada, Mississauga"
+        }
+      ],
       "2025": [
         {
           "caption": "Shivarathri performance at Sri Rajarajeswari Temple of Canada – February 25th, 2025",
