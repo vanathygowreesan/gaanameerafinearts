@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import SiteHeader from '@/components/SiteHeader'
 import Gallery from '@/components/Gallery'
+import MediaShowcase from '@/components/MediaShowcase'
 import ScrollTop from '@/components/ScrollTop'
 import Reveal from '@/components/Reveal'
 
@@ -26,7 +27,13 @@ export default function Home() {
           <h2 className="t">About the Guru</h2>
           <div className="guru">
             <div className="portrait"><div className="ph"><Image src="/images/guru.jpg" alt="Smt. Vanathy Gowreesan, founder and principal guru" width={672} height={896} /></div><div className="cap"><strong>Smt. Vanathy Gowreesan</strong><span>Founder and principal guru</span></div></div>
-            <div className="bio"><p>Smt. Vanathy Gowreesan is the founder and principal guru of Gaana Meera School of Fine Arts, passionately dedicated to teaching Carnatic music in Canada since 2009. She combines a strong traditional foundation with a structured and engaging teaching approach, making Carnatic music accessible to students of all ages.</p><p>Vanathy was introduced to Carnatic music by her mother, Dr. Meera Villavarayar, one of Sri Lanka’s foremost music educators and scholars. Growing up in a culturally rich environment, she studied at Hindu Ladies College, Colombo (Saiva Mangayar Kalakam), where she actively participated in Carnatic music and Pannisai competitions, winning prizes at the all-island level. She served as a school prefect and president of the Fine Arts Union, showcasing her dedication to music and leadership from an early age.</p><p>Her training included vocal music under her mother and Karunakaran Thilaiampalam, Veena under Rathai Kumarathas, and Bharatanatyam under Vasuki Mugunthen. After completing school, she moved to Chennai to pursue a B.Sc. in Electronic Media at M.O.P. Vaishnav College for Women (affiliated with the University of Madras). During her time in Chennai, she underwent advanced Carnatic music training under Dr. M.A. Bhageerathi (daughter of the legendary violinist M.S. Anantharaman) and continued her Bharatanatyam training under Roja Kannan. She also successfully completed the Lower and Higher Government Technical Examinations in Music during this time.</p><p>After migrating to Canada, Vanathy further pursued her passion by completing B.Music and M.Music through Annamalai University’s Distance Education Program, training under Shri Venkatesh Natarajan and Shri GRS Murthy. She regularly attends music workshops and masterclasses to enhance her knowledge and stay current with new pedagogical approaches, ensuring that her students benefit from the highest standard of music education.</p><p>In addition to her musical pursuits, she holds a Diploma in Contemporary Web Design and works professionally as a full-stack developer. This unique combination of technical expertise and artistic knowledge allows her to bring a structured, innovative, and student-focused approach to her teaching.</p></div>
+            <div className="bio">
+              <p>Smt. Vanathy Gowreesan is the founder and principal guru of Gaana Meera School of Fine Arts, passionately dedicated to teaching Carnatic music in Canada since 2009. She combines a strong traditional foundation with a structured and engaging teaching approach, making Carnatic music accessible to students of all ages.</p>
+              <p>Vanathy was introduced to Carnatic music by her mother, <a href="https://meeravillavarayar.com" target="_blank" rel="noopener noreferrer">Dr. Meera Villavarayar</a>, one of Sri Lanka’s foremost music educators and scholars. Growing up in a culturally rich environment, she studied at Hindu Ladies College, Colombo (Saiva Mangayar Kalakam), where she actively participated in Carnatic music and Pannisai competitions, winning prizes at the all-island level. She served as a school prefect and president of the Fine Arts Union, showcasing her dedication to music and leadership from an early age.</p>
+              <p>Her training included vocal music under her mother and Karunakaran Thilaiampalam, Veena under Rathai Kumarathas, and Bharatanatyam under Vasuki Mugunthen. After completing school, she moved to Chennai to pursue a B.Sc. in Electronic Media at M.O.P. Vaishnav College for Women (affiliated with the University of Madras). During her time in Chennai, she underwent advanced Carnatic music training under <a href="https://www.sruti.com/artist/dr-ma-bhageerathi" target="_blank" rel="noopener noreferrer">Dr. M.A. Bhageerathi</a> (daughter of the legendary violinist M.S. Anantharaman) and continued her Bharatanatyam training under Roja Kannan. She also successfully completed the Lower and Higher Government Technical Examinations in Music during this time.</p>
+              <p>After migrating to Canada, Vanathy further pursued her passion by completing B.Music and M.Music through Annamalai University’s Distance Education Program, training under Shri Venkatesh Natarajan and Shri GRS Murthy. She regularly attends music workshops and masterclasses to enhance her knowledge and stay current with new pedagogical approaches, ensuring that her students benefit from the highest standard of music education.</p>
+              <p>In addition to her musical pursuits, she holds a Diploma in Contemporary Web Design and works professionally as a full-stack developer. This unique combination of technical expertise and artistic knowledge allows her to bring a structured, innovative, and student-focused approach to her teaching.</p>
+            </div>
           </div>
         </section>
 
@@ -60,6 +67,7 @@ export default function Home() {
           </ol>
         </section>
         <Gallery />
+        <MediaShowcase />
         <section id="hub" className="wrap">
           <h2 className="t">The Gaana Meera Academy Hub</h2>
           <div className="panel">
